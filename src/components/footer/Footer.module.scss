@@ -1,0 +1,27 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+.container {
+    width: 100%;
+    // max-width: 1200px;
+    margin: 0;
+    display: flex;
+  }
+
+.name {
+    flex: 3;
+    justify-content: flex-start;
+}
+
+.mail {
+    flex: 3;
+    justify-content: flex-end;
+}
+  
