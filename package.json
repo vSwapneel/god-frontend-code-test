@@ -8,6 +8,8 @@
     "next-images": "^1.8.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-multi-carousel": "^2.8.5",
+    "react-select": "^5.8.0",
     "saas": "^1.0.0",
     "sass": "^1.77.4",
     "typescript": "^4.7.0",
@@ -23,6 +25,7 @@
     "@testing-library/react": "^12.1.0",
     "eslint": "^8.0.0",
     "eslint-config-next": "^12.0.0",
-    "jest": "^28.0.0"
+    "jest": "^28.0.0",
+    "jest-cli": "^29.7.0"
   }
 }
