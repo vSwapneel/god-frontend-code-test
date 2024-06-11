@@ -1,0 +1,15 @@
+.filterContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 20px;
+}
+
+.selectBox{
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #2a609d;
+}
