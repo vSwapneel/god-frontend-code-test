@@ -7,8 +7,8 @@ const Filter = (props) => {
 
     const inputRef = useRef();
 
-    const [bodyType, setBodyType] = useState({label: "All", value: "all"});
-    const [modelType, setModelType] = useState({label: "All", value: "all"});
+    const [bodyType, setBodyType] = useState({label: "All Body Types", value: "all"});
+    const [modelType, setModelType] = useState({label: "All Models", value: "all"});
     const [cars, setCars]= useState([...props.allCars])
 
     
@@ -117,7 +117,7 @@ const Filter = (props) => {
 
     return (
         <div className={styles.filterContainer}>
-            <Select 
+            <Select
                 className={styles.selectBox}
                 styles={customStyles}
                 value = {bodyType}

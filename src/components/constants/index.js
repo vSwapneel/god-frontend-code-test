@@ -1,5 +1,5 @@
 export const BODY_TYPES = [
-    { label: "All", value: "all" },
+    { label: "All Body Types", value: "all" },
     { label: "SUV", value: "suv" },
     { label: "Sedan", value: "sedan" },
     { label: "Crossover", value: "crossover" },
@@ -7,7 +7,7 @@ export const BODY_TYPES = [
 ];
 
 export const MODEL_TYPES = [
-    { label: "All", value: "all" },
+    { label: "All Models", value: "all" },
     { label: "Pure Electric", value: "pure electric" },
     { label: "Plug-in Hybrid", value: "plug-in hybrid" },
     { label: "Petrol", value: "Petrol" },

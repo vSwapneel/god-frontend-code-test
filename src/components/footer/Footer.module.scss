@@ -1,29 +1,28 @@
 .footer {
     background-color: #fafafa;
     color: white;
-    padding: 5px 0;
+    padding: 5px 10px 5px 10px;
     text-align: center;
     position: relative;
     bottom: 0;
-    width: 100%;
     margin-top:auto;
     border-top: 1px solid #d5d5d5;
   }
   
 .container {
-    width: 100%;
+    // width: 100%;
     // max-width: 1200px;
     margin: 0;
+    // padding-right: 10px;
     display: flex;
+    justify-content: space-between;
   }
 
 .name {
-    flex: 3;
-    justify-content: flex-start;
+  color: #2a609d
 }
 
 .mail {
-    flex: 3;
-    justify-content: flex-end;
+  color: #2a609d
 }
   

@@ -30,21 +30,23 @@
 }
 
 .cardtitle {
-  font-size: 1em;
+  font-size: 0.8rem;
   margin: 0 0 10px 0;
   color: #555;
   height: 5px;
+  font-weight: bold;
+  opacity: 0.8;
 }
 
 .carddescription {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .carddetails {
   display: flex;
   justify-content: space-between;
   p{
-    font-size: 1em;
+    font-size: 1rem;
     color: #555;
   }
 }

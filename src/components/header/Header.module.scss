@@ -11,7 +11,7 @@
   .container {
     width: 90%;
     max-width: 1200px;
-    margin: 10px;
+    margin: 5px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,6 +20,7 @@
   .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    cursor: pointer;
   }
   
   .logoImage {
