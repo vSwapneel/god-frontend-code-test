@@ -3,15 +3,12 @@
     color: black;
     padding: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    // position: fixed;
-    // top: 0;
-    // width: 100%;
   }
   
   .container {
     width: 90%;
     max-width: 1200px;
-    margin: 10px;
+    margin: 5px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,6 +17,7 @@
   .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    cursor: pointer;
   }
   
   .logoImage {

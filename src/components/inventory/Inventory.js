@@ -20,7 +20,6 @@ const Inventory = () => {
         setFilteredCars([...cars]);
     },[cars]);
 
-    const breakpointItems = (width) => { if(width > 3000 && width <= 5000){ return 4; } else if(width > 1024 && width <= 3000){ return 4; } else if(width > 464 && width <= 1024){ return 3; } else { return 1; } }
     const responsive ={
         superLargeDesktop :{
             breakpoint: { max: 5000, min: 3000 },
@@ -51,7 +50,7 @@ const Inventory = () => {
             setFilter={setFilteredCars}
         />
         {filteredCars.length > 0 ? 
-            <Carousel responsive ={responsive} arrows={true} renderButtonGroupOutside={true}>
+            <Carousel responsive ={responsive} arrows={true} renderButtonGroupOutside={true} swipeable={true} draggable={true}>
                 {filteredCars?.map((car, index)=>(
                     <div className={styles.box} key={car.id}>
                         <CardView

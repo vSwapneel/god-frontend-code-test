@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import styles from'./CardView.module.scss';
-// import {RightArrow} from '/images/chevron-small.svg';
 
 const CardView = (props) => {
 
