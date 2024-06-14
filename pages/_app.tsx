@@ -5,8 +5,7 @@ import React from "react";
 function HomePage() {
   return (
     <React.StrictMode>
-      <link rel="icon" href="images\Logo-Tab.jpg" />
-      <Landing />
+      <Landing/>
     </React.StrictMode>
   );
 }
